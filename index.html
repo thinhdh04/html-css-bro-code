@@ -7,27 +7,19 @@
     <title>My first website</title>
 </head>
 <body>
-    <h3>Store Hours</h3>
+    <a href="page2.html" target="_blank">
+        <button style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 5px;">click me</button>
+    </a>
 
-    <table border="1" style="background-color: black;">
-        <tr align="center" style="background-color: lightblue;">
-            <th width="100">Sunday</th>
-            <th width="100">Monday</th>
-            <th width="100">Tuesday</th>
-            <th width="100">Wednesday</th>
-            <th width="100">Thursday</th>
-            <th width="100">Friday</th>
-            <th width="100">Saturday</th>
-        </tr>
-        <tr align="center" style="background-color: aliceblue;">
-            <td>Closed</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-            <td>9-5</td>
-        </tr>
-    </table>
+    <hr>
+
+    <button onclick="doSomeThing()" style="font-size: 25px; background-color: grey; color: lightblue; border-radius: 5px;">click me</button>
+
+    <p id="greeting">Hello</p>
+    <script>
+        function doSomeThing(){
+            document.getElementById("greeting").innerHTML = "Goodbye"
+        }
+    </script>
 </body>
 </html>
