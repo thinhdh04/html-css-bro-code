@@ -1,19 +1,15 @@
-body{
-    background-color:hsl(0, 0.00%, 11.80%);
+@font-face{
+    src: url(fonts/Roboto-VariableFont_wdth,wght.ttf);
+    font-family:Roboto-VariableFont_wdth;
 }
 
-#p1{
-    color: tomato;
+h1{
+    font-family: Roboto-VariableFont_wdth, verdana, arial;
 }
 
-#p2{
-    color: rgb(102, 222, 255);
-}
-
-#p3{
-    color: #59ff5f;
-}
-
-#p4{
-    color: hsl(283, 100%, 64%);
+p{
+    font-family: Roboto-VariableFont_wdth, "lucida console", "courier new";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
 }
