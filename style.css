@@ -1,15 +1,13 @@
 
 
 h1{
-    border: 3px solid red;
-    border-radius: 100px; 
+    text-shadow: 3px 3px 5px red, -3px -3px 5px green;
 }
 
-p{
-    border-bottom: 3px solid green;
-    border-top: 3px solid yellow;
-    border-left: 3px dotted blue;
-    border-right: 3px dotted purple;
-
-    border-radius: 10px;
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 3px 3px 5px;
 }
+
