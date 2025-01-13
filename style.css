@@ -1,5 +1,13 @@
 div{
-    border: 2px solid;
-    height: 75px;
-    overflow: auto;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    visibility: hidden;
+}
+span{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
 }
