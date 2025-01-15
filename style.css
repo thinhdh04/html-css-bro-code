@@ -1,17 +1,7 @@
-#box1{
-    width: 200px;
-    height: 200px;
-    background-color: lightblue;
-    position: fixed;
-    top: 100px;
-    left: 100px;
-}
-
-#box2{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    position: absolute;
-    top: 50px;
-    left: 50px;
+body{
+    background-image: url(park.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; 
 }
