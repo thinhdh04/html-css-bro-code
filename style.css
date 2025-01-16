@@ -1,7 +1,32 @@
-#container{
-    border: 2px solid;
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
 }
 
-#container > p{
-    background-color: yellow;
+p::first-line{
+    background-color: lightyellow;
+    
+}
+
+p::selection{
+    color: white;
+    background-color: grey;
+}
+
+#apple::after{
+    content: "🍎";
+}
+
+#orange::after{
+    content: "🍊";
+}
+
+#banana::after{
+    content: "🍌";
+}
+
+#fruit li::marker{
+    content: "✔";
+    color: green;
+    font-size: 1.2em;
 }
