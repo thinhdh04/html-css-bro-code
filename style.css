@@ -1,26 +1,7 @@
-.container{
-    display: flex;
-    border: 10px solid black;
-    height: 90vh;
+body{
+    margin: 0;
 }
 
-.box{
-    width: 150px;
-    height: 150px;
-    font-size: 8em;
-    text-align: center;
-    border-radius: 15px;
-}
-
-#box1{
-    background-color: red;
-}
-#box2{
-    background-color: yellow;
-}
-#box3{
-    background-color: green;
-}
-#box4{
-    background-color: blue;
+img{
+    transform: translateX(100%) rotateZ(180deg) scaleX(2);
 }
